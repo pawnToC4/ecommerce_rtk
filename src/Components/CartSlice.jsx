@@ -1,5 +1,10 @@
+import {createSlice} from '@re'
 
-const CartSlice = ({
+const initialState = {
+    cartItems: [],
+};
+
+const CartSlice = createSlice({
  
 });
 
